@@ -1,0 +1,481 @@
+/*
+CSS Credit: http://www.templatemo.com/
+*/
+
+body {
+	margin: 0;
+	padding: 0;
+	line-height: 1.5em;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #383838;
+	background: #e9edf1;
+	
+}
+
+a:link, a:visited { color: #000; text-decoration: none; font-weight: bold;}
+a:active, a:hover { color: #F00; text-decoration: underline}
+
+h1 {
+	margin: 0px;
+	padding: 30px 50px 15px 50px;
+	font-size: 24px;
+	font-weight: bold;
+	color: #333333;
+}
+
+h2 {
+	margin: 0px;
+	padding: 0px 0px 5px 0px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #3e78b2;
+}
+
+h4 {
+	margin: 0px;
+	padding: 0px;
+	font-size: 12px;
+	font-weight: bold;
+	color: #06A;
+}
+
+p{
+	margin: 0px;
+	padding: 10px 50px;
+	text-align: justify;
+}
+
+.spacetobottom {
+	clear: both;
+	height: 50px;
+}
+
+.spacetoright {
+	float: left;
+	width: 10px;
+	height: 1px;;
+}
+
+/* ----- Form ----- */
+form{
+	margin: 35px 0 0 0;
+	padding: 0px;
+	text-align: right;
+}
+
+label {
+	margin: 0 10px;
+}
+
+input{
+	width: 150px;
+	height: 15px;
+	color: #aabdd0;
+	border: 1px solid #686f76;
+}
+
+.button{
+	margin: 0px;
+	width: 50px;
+	height: 20px;
+	border: 0px;
+	color: #333333;
+	font-weight: bold;
+	background: #FFFFFF;
+	cursor: pointer;
+}
+/* End of Form */
+
+.more_button a {
+	clear: both;
+	display: block;
+ 	width: 100px;
+	height: 18px;
+	margin-right: 25px;
+	padding: 6px;
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+	color: #FFF;
+	background: #333a56;
+ 	border: 1px solid #FFF;
+ 	float: right;
+}
+
+
+#templatemo_container {
+	margin: auto;
+	width: 950px;
+	padding: 0px 10px;
+	background: url(images/mainBG.gif) repeat-y;
+}
+
+#templatemo_topbar {
+	float: left;
+	height: 36px;
+	width: 850px;
+	padding: 0 50px;
+	margin-bottom: 10px;
+}
+
+#languagebox {
+	float: right;
+	padding-bottom: 5px;
+	padding-right: 5px;
+	background: #848688;
+	border-left: 1px #bcbcbc solid;
+	border-right: 1px #bcbcbc solid;
+	border-bottom: 1px #bcbcbc solid;
+}
+
+#languagebox img{
+	float: left;
+	border: 1px solid #FFFFFF;
+	margin-left: 5px;
+	margin-top: -1px;
+}
+
+#templatemo_header {
+	float: left;
+	height: 60px;
+	width: 850px;
+	padding: 0 50px;
+	background-color: #019ece;
+}
+
+#templatemo_logo {
+	float: left;
+	height: 55px;
+	width: 300px;
+}
+
+#templatemo_logo img {
+	float: left;
+	border: none;
+	/* padding-right: 10px; */
+	padding-top: 8px;
+}
+
+#templatemo_sitetitle {
+	padding: 28px 0 0 40px;
+	font-size: 4.0em;
+	font-weight: bold;
+	color: #333333;
+}
+
+#templatemo_login {
+	float: right;
+	height: 55px;
+	width: 530px;
+}
+
+/*------------- Menu ------------------*/
+#templatemo_menu {
+	float: left;
+	width: 950px;
+	height: 40px;
+	margin: 0;
+	padding: 0;
+	background-color: #333a56;
+}
+
+#templatemo_menu ul {
+	margin: 0 0 0 50px;
+	padding: 0px;
+	list-style: none;
+}
+
+#templatemo_menu ul li{
+	display: inline;
+}
+
+#templatemo_menu ul li a{
+	float: left;
+	width: 140px;
+	height: 20px;
+	margin-top: 10px;
+	padding: 0;
+	font-size: 1.1em;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	color: #CCCCCC;
+	
+}
+
+#templatemo_menu ul li .lastmenu{
+	border-right: 1px solid #CCCCCC;
+}
+
+#templatemo_menu li a:hover, #templatemo_menu li .current{
+	color: #FFFFFF;
+	background: url(images/menuhoverBG.gif) no-repeat;
+}
+/* ----------------- end of menu----------------*/
+
+#templatemo_banner {
+	clear: both;
+	float: left;
+	width: 950px;
+	height: 250px;
+	/* padding: 30px 150px 0 50px; */
+	/* margin-bottom: -25px; */
+/* background-color: #f7f5e6;
+background-image: url(images/bg.jpg) no-repeat; */
+background-image: linear-gradient(
+	to right bottom,
+	rgba(247, 245, 230, 0.3),
+	rgba(224, 239, 245, 0.2)),
+	 url(images/banner1.jpg);
+/* background-repeat: no-repeat;
+ background-size: auto */
+}
+
+/* #templatemo_banner h1 {
+	font-size: 2.5em;
+	margin-bottom: 10px;
+} */
+
+#templatemo_services {
+	clear: both;
+	float: left;
+	width: 900px;
+	height: 220px;
+	/* padding-left: 50px; */
+	/* margin-bottom: 25px; */
+	/* margin-top: 50px; */
+	padding-top:10px;
+	padding-bottom:20px;
+	padding-left: 25px;
+	padding-right: 25px;
+	background-color: #e8e8e8;
+}
+
+.service_box {
+	float: left;
+	width: 220px;
+	/* height: 252px; */
+	padding: 10px 15px 10px 15px;
+margin-right: 75px;
+	/* background-color: #fff; */
+}
+.service_box:last-child{
+	margin-right: 0;
+	    float: right;
+}
+
+.service_box p{
+	padding-bottom: 5px;
+}
+
+.service_box img{
+	padding-bottom: 5px;
+}
+
+
+.templatemo_fullgraybox {
+	clear: both;
+	float: left;
+	width: 798px;
+	padding: 25px;
+	margin: 50px 50px 25px 50px;
+	border: 1px solid #CCCCCC
+}
+
+* html .templatemo_fullgraybox {
+	clear: both;
+	float: left;
+	width: 798px;
+	padding: 25px;
+	margin: 50px 50px 25px 25px;
+	border: 1px solid #CCCCCC
+}
+
+.templatemo_fullgraybox img{
+	float: left;
+	margin: 3px 20px 0 0px;
+	border: 1px solid #999999;
+}
+
+.templatemo_fullgraybox ul {
+	margin: 10px 0 0 0px;
+	padding: 0 0 0 30px;
+}
+
+.templatemo_fullgraybox li {
+	list-style: inside;
+	padding: 0 0 10px 0;
+	background: url(images/listicon.gif) center left no-repeat;
+}
+
+/* news section */
+
+#templatemo_newssection {
+	clear: both;
+	float: left;
+	width: 950px;
+	/* margin: 0 0 25px 50px; */
+	padding-top: 20px;
+	padding-bottom: 40px;
+	background-color:#fff;
+}
+
+* html #templatemo_newssection {
+	clear: both;
+	float: left;
+	width: 900px;
+	margin: 0 0 25px 25px;
+}
+
+.newsbox {
+	float: left;
+	width: 250px;
+	margin-right: 50px;
+}
+
+
+/* end of news section */
+
+/* Light Blue Row */
+#templatemo_light_blue_row {
+	clear: both;
+	float: left;
+	width: 900px;
+	padding: 10px 0 25px 50px;
+	background: #52658f;
+}
+
+.templatemo_gallery {
+	float: left;
+	width: 400px;
+	margin-right: 50px;
+}
+
+.templatemo_partners {
+	float: left;
+	width: 400px;
+}
+
+.gp_row {
+	width: 400px;
+	margin-bottom: 10px;
+}
+
+.gp_row img{
+	float: left;
+	margin: 3px 10px 0 0;
+
+}
+
+.gp_row p{
+	color: #000000;
+}
+
+/* end of Light Blue Row */
+
+/* ----- Footer ----- */
+
+#templatemo_footer {
+	clear: both;
+	padding: 15px 0px 0px 0px;
+	width: 950px;
+	height: 50px;
+	text-align: center;
+	background: #999999;
+	border-top: 5px solid #666666;
+}
+
+#templatemo_footer a{
+	font-weight: normal;
+}
+
+.service_box p{
+	padding:0;
+}
+.header_title{
+	font-family: 'Eras Demi ITC','Arial';
+    font-weight: 700;
+    font-size:25px;
+    color: #3e78b2;
+		padding-top: 10px;
+}
+.header_newssection{
+	font-family: 'Eras Demi ITC','Arial';
+		font-weight: 700;
+		font-size:25px;
+		color: #3e78b2;
+		padding-bottom: 10px;
+
+}
+.more_button1 .p{
+
+
+}
+.header_main{
+	color:#fff;
+	font-size: 40px;
+	position:absolute;
+	padding-left: 500px;
+	float:right;
+}
+.header_content{
+	color:#fff;
+	padding-left: 450px;
+	padding-top: 75px;
+	font-size: 18px;
+}
+
+.contact_info{
+	float: right;
+	padding: 5px 10px;
+}
+/* ul{
+	list-style: none;
+} */
+.contact_info li a:link, .contact_info li a:visited  {
+  text-decoration: none;
+	color: #fff;
+
+}
+.contact_info{
+		list-style: none;
+}
+.info:hover{
+	color:#fff;
+}
+.feature_section{
+	color: #e8e8e8;
+}
+.goals{
+	font-size: 20px;
+	color: #e8e8e8;
+	padding-bottom: 0;
+	padding-top: 5px;
+}
+.values{
+	padding-left: 50px;
+	padding-top:0;
+	margin-top:0;
+	color: #000000;
+}
+.navigation{
+	
+	float:right;
+}
+/* #templatemo_projects{
+	clear: both;
+    float: left;
+    width: 950px;
+    height: 200px;
+ background-color: #52658F;
+
+}
+.gp_column{
+	float: left;
+	width: 220px;
+	/* height: 252px; */
+	padding: 10px 15px 10px 15px;
+	margin-right: 50px;
+} */
+/* ----- End of Footer ----- */
