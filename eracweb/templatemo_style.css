@@ -61,7 +61,7 @@ p{
 form{
 	margin: 35px 0 0 0;
 	padding: 0px;
-	text-align: right;
+	/*text-align: right;*/
 }
 
 label {
@@ -101,6 +101,7 @@ input{
 	background: #333a56;
  	border: 1px solid #FFF;
  	float: right;
+ 	border-radius: 4px;
 }
 
 
@@ -345,6 +346,13 @@ margin-right: 75px;
 	padding: 10px 0 25px 50px;
 	background: #52658f;
 }
+#templatemo_white{
+	clear: both;
+	float: left;
+	width: 900px;
+	padding: 10px 0 25px 50px;
+	background: #dcdcdc;
+}
 
 .templatemo_gallery {
 	float: left;
@@ -447,6 +455,9 @@ margin-right: 75px;
 .feature_section{
 	color: #e8e8e8;
 }
+.feature_section1{
+	color: #333333;
+}
 .goals{
 	font-size: 20px;
 	color: #e8e8e8;
@@ -462,6 +473,46 @@ margin-right: 75px;
 .navigation{
 	
 	float:right;
+}
+.form-group{
+	margin-bottom: 15px;
+}
+input.form-control {
+    border: 1px solid #ddd;
+    box-shadow: none;
+    height: 25px;
+    width: 250px;
+}
+textarea.form-control {
+    border: 1px solid #ddd;
+    box-shadow: none;
+    height: 80px;
+    width: 350px;
+}
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    margin-left: 0;
+    font-weight: 700;
+    display: block;
+    font-size: 13px;
+}
+.btn{
+display: inline-block;
+    padding: 8px 20px;
+    /*padding-bottom: 8px;*/
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #FFF;
+    border-radius: 4px;
+    background-color: #333a56;
+    color: #fff;
+}
+.bg_contact{
+background-color: #fff;
 }
 /* #templatemo_projects{
 	clear: both;
